@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ESTILOS PERSONALES -->
+    <link rel="stylesheet" href="static/css/estilo.css">
+    <title>Chat Sexy</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Chat Sexy by Andy</h1>
+    </header>
+    <main>
+        <section style="width: 100%;display:flex;justify-content: center; align-items: center;flex-direction: column;">
+            <h2>Presione el botón y viaje al pasado</h2>
+            <article>
+                <button id="btn-old">CHAT VIEJO</button>
+            </article>
+        </section>
+        <hr>
+        <section class="sectionUp">
+            <article style="display:flex;flex-direction: column;">
+                <h2>Pegue el link de una foto que termine en .jpg, .png o .gif y presione SUBIR para cambiar su foto de perfil.</h2>
+                <form id="formUpload">
+                    <input type="text" id="urlPhoto" placeholder="Pegue el link de la imágen" required>
+                    <button>Subir</button>
+                </form>
+            </article>
+        </section>
+        <hr>
+        <section>
+            <article>
+                <h2>Elije un color de letras</h2>
+                <ul class="colorPick">
+                    <li id="red"></li>
+                    <li id="blue"></li>
+                    <li id="green"></li>
+                    <li id="BlueViolet"></li>
+                    <li id="turquoise"></li>
+                    <li id="orange"></li>
+                    <li id="pink"></li>
+                    <li id="hotpink"></li>
+                    <li id="yellow"></li>
+                    <li id="lightcoral"></li>
+                    <li id="steelblue"></li>
+                    <li id="slateblue"></li>
+                    <li id="tomato"></li>
+                    <li id="darkorange"></li>
+                    <li id="cyan"></li>
+                    <li id="firebrick"></li>
+                    <li id="navy"></li>
+                </ul>
+                <button id="btn-color">Listo</button>
+            </article>
+        </section>
+    </main>
+
+    <script src="/static/js/popup.js"></script>
+    <script src="static/js/plantillas/tema1.js"></script>
+</body>
+
+</html>

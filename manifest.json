@@ -1,0 +1,17 @@
+{
+    "name": "ChatSexy",
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "description": "Una aplicación simple que te hará volver al pasado, en la época en que todos eramos felices.",
+    "icons": { "128": "img/artIco.png" },
+    "content_scripts": [{
+        "matches": ["*://chat.elchat.net/*"],
+        "js": ["content.js"]
+    }],
+    "browser_action": {
+        "default_title": "Chat Sexy",
+        "default_popup": "popup.html",
+        "default_icon": "img/artIco.png"
+    }
+
+}
